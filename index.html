@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP 2 - Carousel Bootstrap</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div id="miCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://th.bing.com/th/id/OIP.cR62PWnpSlLVcrs2dhg2LQHaKe?w=154&h=218&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" class="d-block w-100" alt="Slide 1" width="20%">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://th.bing.com/th/id/OIP.7jUMFVbOCaSDQDaWlnNwgQHaKe?w=144&h=203&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" class="d-block w-100" alt="Slide 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://tse2.mm.bing.net/th/id/OIP.FAB8Wv6_hPRayyJUAAUsFgHaKe?rs=1&pid=ImgDetMain&o=7&rm=3" class="d-block w-100" alt="Slide 3">
+                </div>
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#miCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#miCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Siguiente</span>
+            </button>
+        </div>
+    </header>
+
+    <main class="container my-5">
+        <div class="row">
+            <div class="col-md-8 offset-md-2 text-center">
+                <h2 class="display-4">Información del Proyecto</h2>
+                <p class="lead">Este sitio utiliza <b>Bootstrap 5</b> para crear un diseño responsivo y funcional de manera rápida.</p>
+                <p>El carousel del encabezado permite mostrar imágenes destacadas con navegación lateral simple. Es una herramienta ideal para presentaciones universitarias o portafolios.</p>
+                <hr>
+                <button class="btn btn-primary">Leer más</button>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-dark text-white pt-4 pb-2 mt-5">
+        <div class="container text-center">
+            <p>Información tomada de: <a href="https://getbootstrap.com" class="text-info" target="_blank">Documentación Oficial de Bootstrap</a></p>
+            <p>Contacto del Alumno: <a href="mailto:tuemail@ejemplo.com" class="text-white">lucasastorga05@gmail.com</a></p>
+            <hr class="bg-white">
+            <p>&copy; 2026 - Salta, Argentina</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
