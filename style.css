@@ -11,3 +11,24 @@
     object-fit: contain; /* 'contain' evita que se corten, 'cover' las recorta pero llena todo */
     object-position: center;
 }
+
+/* Esto va a reemplazar lo que tenías antes */
+.btn-primary {
+    background-color: #2c3e50 !important; /* Color azul oscuro profesional */
+    border: none;
+    padding: 12px 30px;
+    transition: all 0.3s ease;
+    border-radius: 50px; /* Botón redondeado */
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.btn-primary:hover {
+    background-color: #1a252f !important;
+    transform: scale(1.1); /* Efecto de agrandado al pasar el mouse */
+}
+
+/* Mejora para el texto del carrusel */
+.carousel-item {
+    filter: brightness(0.8); /* Hace que las imágenes sean un toque más oscuras para que se vea el texto */
+}
